@@ -1,19 +1,28 @@
 {
   "name": "to-do-list-app",
-  "productName": "To-Do List",
   "version": "1.0.0",
+  "description": "blah",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markf001/testing.git"
+  },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/markf001/testing/issues"
+  },
+  "homepage": "https://github.com/markf001/testing#readme",
   "devDependencies": {
-    "electron": "^34.2.0"
+    "autoprefixer": "^10.4.20",
+    "electron": "^35.0.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.9"
   },
   "dependencies": {
-    "toastify-js": "^1.12.0"
+    "@tailwindcss/cli": "^4.0.9"
   }
 }
